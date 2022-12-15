@@ -1,5 +1,7 @@
 export class Satellite {
 
+
+
 	name: string;
 	type: string;
 	launchDate: string;
@@ -15,6 +17,7 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
+	if(this.type === 'Space Debris')
 		return true;
    }
 
